@@ -1,0 +1,84 @@
+main, footer, nav {
+    width: 1140px;
+    margin: 0 auto;
+}
+/* nav styles starts */
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+/* banner styles starts */
+.banner{
+    background-image: url(../assets/Hero-bg.png);
+    text-align: center;
+    padding: 50px;
+}
+/* why web development section styles */
+.why-wd-text{
+    text-align: center;
+}
+.why-wd-sec{
+    border-radius: 16px;
+}
+.why-wd-info{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 50px;
+}
+/* inspiration section styles starts */
+.inspiration-sec{
+    text-align: center;
+}
+/* current target info styles starts */
+.current-trgt-title{
+    text-align: center;
+}
+.current-trgt-info{
+    display: flex;
+    gap: 24px;
+}
+#current-trgt-card-1{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+#current-trgt-card-2{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+#current-trgt-card-3{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+/* next target section styles starts */
+.next-trgt-sec-title{
+    text-align: center;
+}
+.next-trgt-cards{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+.next-trgt-info{
+    padding: 0px 50px;  
+}
+/* support section styles starts */
+.support-sec{
+    text-align: center;
+    padding: 200px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* footer styles starts */
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
